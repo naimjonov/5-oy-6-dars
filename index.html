@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form>
+        <div class="name">
+            <label for="name">Name*</label>
+            <input id="name" type="text">
+        </div>
+        <div class="name">
+            <label for="last_name">Last name*</label>
+            <input id="last_name" type="text">
+        </div>
+        <div class="email">
+            <label for="email">Email*</label>
+            <input id="email" type="email">
+        </div>
+        <div class="avatar">
+            <label for="avatar">Avatar*</label>
+            <input id="avatar" type="url">
+        </div>
+        <label class="btn" for="country">Davlat tanlang*</label>
+        <select class="btn" name="country" id="country">
+            <option value="">Davlatni tanlang</option>
+            <option value="uzbekistan">O‘zbekiston</option>
+            <option value="usa">AQSH</option>
+            <option value="uk">Angliya</option>
+            <option value="russia">Rossiya</option>
+            <option value="turkey">Turkiya</option>
+        </select>
+        <label class="btn" for="gender">Jinsi*</label>
+        <select class="btn" id="gender" name="gender">
+            <option value="male">Erkak</option>
+            <option value="female">Ayol</option>
+            <option value="other">Boshqa</option>
+        </select>
+        <button type="submit">submit</button>
+    </form>
+    <ul></ul>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

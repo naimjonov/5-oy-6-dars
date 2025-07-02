@@ -1,0 +1,70 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgb(152, 165, 194);
+    list-style: none;
+}
+
+form {
+    background-color: white;
+    width: 280px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 15px;
+    box-shadow: 8px 5px 9px gray;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.user-card {
+    width: 335px;
+    background-color: white;
+    margin-left: 520px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 5px 9px gray;
+    list-style: none;
+}
+
+.user-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
