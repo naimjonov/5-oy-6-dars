@@ -2,12 +2,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-color: rgb(152, 165, 194);
+    background: linear-gradient(to right, rgb(185, 168, 168), rgb(244, 244, 244), rgb(77, 77, 174));
     list-style: none;
 }
 
 form {
-    background-color: white;
+    background: linear-gradient(to right, rgb(185, 168, 168), rgb(244, 244, 244), rgb(120, 120, 126));
     width: 280px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -17,7 +17,7 @@ form {
     margin-right: auto;
     margin-top: 200px;
     border-radius: 15px;
-    box-shadow: 8px 5px 9px gray;
+    box-shadow: 8px 5px 9px black;
 }
 
 .name {
@@ -51,14 +51,14 @@ form {
 
 .user-card {
     width: 335px;
-    background-color: white;
+    background: linear-gradient(to right, rgb(185, 168, 168), rgb(244, 244, 244), rgb(116, 116, 130));
     margin-left: 520px;
     margin-right: 50px;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 30px;
     border-radius: 15px;
-    box-shadow: 8px 5px 9px gray;
+    box-shadow: 8px 5px 9px black;
     list-style: none;
 }
 
